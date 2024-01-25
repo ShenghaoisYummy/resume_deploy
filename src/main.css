@@ -1,10 +1,19 @@
 @font-face {
   font-family: "Outfit"; /* Choose a name for your font */
-  src: url("./assets/fonts/Outfit-Light.ttf") format("truetype");
+  src: url("./assets/fonts/Outfit-Regular.ttf") format("truetype");
+
+  /* Add additional formats if needed */
+}
+
+@font-face {
+  font-family: "DM Sans"; /* Choose a name for your font */
+  src: url("./assets/fonts/DMSans_24pt-Regular.ttf") format("truetype");
+
   /* Add additional formats if needed */
 }
 * {
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
 }
 .resume {
   display: flex;
@@ -28,7 +37,7 @@
 .container {
   height: 100vw;
   display: flex;
-  padding: 48px;
+  padding: 2.4em;
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
@@ -42,4 +51,37 @@
   align-items: flex-start;
   flex: 1 0 0;
   align-self: stretch;
+}
+
+.media-wrap {
+  flex-direction: column;
+  gap: 24px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.lang-wrap {
+  flex-direction: column;
+  gap: 24px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.media-title {
+  display: flex;
+  color: #79819a;
+  font-family: "DM Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+  letter-spacing: 0.12px;
 }

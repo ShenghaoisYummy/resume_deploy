@@ -1,11 +1,11 @@
-import "./media.css";
-const Media = (props) => {
+import "./languages.css";
+const Lang = (props) => {
   return (
-    <div className="media">
+    <div className="lang">
       <div className="featured-icon">
-        <img className="media-img" src={props.src} alt=" "></img>
+        <img className="lang-img" src={props.src} alt=" "></img>
       </div>
-      <div className="media-text">
+      <div className="lang-text">
         <div className="title">{props.title}</div>
         <div className="subtitle">{props.subtitle}</div>
       </div>
@@ -13,4 +13,4 @@ const Media = (props) => {
   );
 };
 
-export default Media;
+export default Lang;

@@ -1,0 +1,34 @@
+<svg width="33" height="24" viewBox="0 0 33 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="flag-icon-2.svg" clip-path="url(#clip0_1_179)">
+<g id="Clip path group">
+<mask id="mask0_1_179" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="33" height="24">
+<g id="clip0_402_5320">
+<path id="Vector" d="M32.5 0H0.5V24H32.5V0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_1_179)">
+<g id="Group">
+<g id="Mask group">
+<mask id="mask1_1_179" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="33" height="24">
+<g id="Group_2">
+<path id="Vector_2" d="M29.4524 0H3.54762C1.86447 0 0.5 1.43269 0.5 3.2V20.8C0.5 22.5674 1.86447 24 3.54762 24H29.4524C31.1356 24 32.5 22.5674 32.5 20.8V3.2C32.5 1.43269 31.1356 0 29.4524 0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask1_1_179)">
+<g id="Group_3">
+<path id="Vector_3" d="M29.4524 0H3.54762C1.86447 0 0.5 1.43269 0.5 3.2V20.8C0.5 22.5674 1.86447 24 3.54762 24H29.4524C31.1356 24 32.5 22.5674 32.5 20.8V3.2C32.5 1.43269 31.1356 0 29.4524 0Z" fill="white"/>
+<path id="Vector_4" fill-rule="evenodd" clip-rule="evenodd" d="M0.5 0H6.59524V6.4H0.5V0ZM9.64286 0H15.7381V6.4H9.64286V0ZM0.5 9.6H6.59524V16H0.5V9.6ZM9.64286 9.6H15.7381V16H9.64286V9.6ZM15.7381 0H32.5V3.2H15.7381V0ZM15.7381 6.4H32.5V9.6H15.7381V6.4Z" fill="#005CB2"/>
+<path id="Vector_5" fill-rule="evenodd" clip-rule="evenodd" d="M0.5 12.7999H32.5V15.9999H0.5V12.7999ZM6.59524 12.7999H9.64286V15.9999H6.59524V12.7999ZM0.5 19.1999H32.5V22.3999H0.5V19.1999Z" fill="#005CB2"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1_179">
+<rect width="32" height="24" fill="white" transform="translate(0.5)"/>
+</clipPath>
+</defs>
+</svg>
