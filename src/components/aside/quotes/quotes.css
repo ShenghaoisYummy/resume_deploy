@@ -24,6 +24,7 @@
   height: 1rem;
 }
 .svg-right {
+  top: 17px;
   position: relative;
   align-self: stretch;
   flex: -2, 2 auto;

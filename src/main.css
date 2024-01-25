@@ -3,14 +3,15 @@
   src: url("./assets/fonts/Outfit-Light.ttf") format("truetype");
   /* Add additional formats if needed */
 }
-
+* {
+  box-sizing: border-box;
+}
 .resume {
   display: flex;
   justify-content: center;
   position: relative;
   background-color: #ffffff;
   min-height: 100vh;
-  box-sizing: border-box;
 }
 .aside {
   position: relative;
