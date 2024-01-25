@@ -1,27 +1,37 @@
-#root {
+@font-face {
+  font-family: "Outfit"; /* Choose a name for your font */
+  src: url("./assets/fonts/Outfit-Light.ttf") format("truetype");
+  /* Add additional formats if needed */
 }
 
 .resume {
   display: flex;
-  min-height: 1080px;
   justify-content: center;
-  align-items: flex-start;
-  align-self: stretch;
+  position: relative;
+  background-color: #ffffff;
+  min-height: 100vh;
+  box-sizing: border-box;
 }
 .aside {
+  position: relative;
+  width: 360px;
   display: flex;
   padding-bottom: 298px;
   flex-direction: column;
   align-items: flex-start;
   align-self: stretch;
+  background-color: #f8f9fc;
+  box-sizing: border-box;
 }
 
 .container {
+  height: 100vw;
   display: flex;
   padding: 48px;
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
+  box-sizing: border-box;
   align-self: stretch;
 }
 
