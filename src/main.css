@@ -24,9 +24,9 @@
 }
 .aside {
   position: relative;
-  width: 360px;
+  width: 22.5rem;
   display: flex;
-  padding-bottom: 298px;
+  padding-bottom: 18.625rem;
   flex-direction: column;
   align-items: flex-start;
   align-self: stretch;
@@ -35,27 +35,27 @@
 }
 
 .container {
-  height: 100vw;
   display: flex;
-  padding: 2.4em;
   flex-direction: column;
   align-items: flex-start;
-  gap: 32px;
-  box-sizing: border-box;
-  align-self: stretch;
+  gap: 1.6rem;
+  padding: 2.4rem;
+  position: relative;
 }
 
 .content-wrapper {
+  height: 84.2rem;
+  padding: 3.2rem 2.4rem 3.2rem 1.6rem;
+  flex: 1;
+  flex-grow: 1;
   display: flex;
-  padding: 64px 48px 73px 32px;
   align-items: flex-start;
-  flex: 1 0 0;
-  align-self: stretch;
+  position: relative;
 }
 
 .media-wrap {
   flex-direction: column;
-  gap: 24px;
+  gap: 1.2rem;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
@@ -66,7 +66,7 @@
 
 .lang-wrap {
   flex-direction: column;
-  gap: 24px;
+  gap: 1.2rem;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
@@ -79,9 +79,48 @@
   display: flex;
   color: #79819a;
   font-family: "DM Sans";
-  font-size: 12px;
+  font-size: 0.75rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 16px; /* 133.333% */
-  letter-spacing: 0.12px;
+  line-height: 1rem; /* 133.333% */
+  letter-spacing: 0.0075rem;
+}
+
+.project-title {
+  color: #2e2e48;
+  font-family: Outfit;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem; /* 133.333% */
+  letter-spacing: 0.015rem;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  align-self: stretch;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 0 0;
+}
+
+.projects {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
+.project {
+  display: flex;
+  padding-bottom: 3rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  flex: 1 0 0;
 }

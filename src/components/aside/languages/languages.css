@@ -1,7 +1,7 @@
 .lang {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 1rem;
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -9,8 +9,8 @@
 }
 .lang .featured-icon {
   position: relative;
-  width: 32px;
-  height: 24px;
+  width: 2rem; 
+  height: 1.5rem;
   border-radius: 0.2rem;
   box-shadow: var(--shadow-sm);
   background-size: 100% 100%;
@@ -29,18 +29,18 @@
 .lang-text .title {
   color: #47516b;
   font-family: "DM Sans";
-  font-size: 14px;
+  font-size: 0.875rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 18px;
+  line-height: 1.125rem;
 }
 
 .lang-text .subtitle {
   color: #79819a;
   font-family: "DM Sans";
-  font-size: 12px;
+  font-size: 0.75rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 16px; /* 133.333% */
-  letter-spacing: 0.12px;
+  line-height: 1rem; /* 133.333% */
+  letter-spacing: 0.0075rem;
 }

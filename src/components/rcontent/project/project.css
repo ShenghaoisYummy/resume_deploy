@@ -1,0 +1,75 @@
+.project-wrap {
+  display: flex;
+  padding: 1.5rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  align-self: stretch;
+  background: #f7f9fc;
+  border-radius: 0.5rem 0rem 0rem 0.5rem;
+}
+
+.project-content {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.project-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+  flex: 1 0 0;
+}
+
+.project-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #2e2e48;
+  font-family: "DM Sans";
+  font-size: 1rem;
+}
+
+.project-span {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  color: #79819a;
+  font-family: "DM Sans";
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.125rem; /* 128.571% */
+  letter-spacing: 0.0088rem;
+}
+
+.project-link {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.image-wrapper {
+  display: flex;
+  padding: 0.25rem;
+  flex-shrink: 0;
+  border-radius: 12.5rem;
+  background: #e1e7fe;
+}
+
+.subtitle-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+  color: #516cf7;
+  font-family: Outfit;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem;
+}

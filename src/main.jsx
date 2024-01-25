@@ -1,4 +1,3 @@
-import React from "react";
 import ReactDOM from "react-dom/client";
 
 import Header from "./components/aside/header/header";
@@ -6,6 +5,9 @@ import Quotes from "./components/aside/quotes/quotes";
 import Divider from "./components/aside/divider/divider";
 import Media from "./components/aside/soical-media/media";
 import Lang from "./components/aside/languages/languages";
+
+import DividerColoumn from "./components/rcontent/divider-column/divider-column";
+import Project from "./components/rcontent/project/project";
 
 import "./main.css";
 import "./assets/css/resetYui.css";
@@ -98,6 +100,33 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         </div>
       </div>
     </div>
-    <div className="content-wrapper"></div>
+    <div className="content-wrapper">
+      <div className="content">
+        <div className="block">
+          <DividerColoumn />
+          <div className="project">
+            <div className="project-title">Latest projects</div>
+            <div className="projects">
+              <Project
+                src="/src/assets/images/projects/project1.png"
+                title="Powerful Design System"
+                text="Figma UI Kit and Design System targeting a wide variety of use cases."
+                linkSrc="/src/assets/images/projects/brand.svg"
+                href="https://www.figma.com/@angelolibero"
+                linkText="https//figma.com"
+              />
+              <Project
+                src="/src/assets/images/projects/project2.png"
+                title="Modern Website"
+                text="Powerful website + dashboard template for your next Chakra UI project."
+                linkSrc="/src/assets/images/projects/basic-link.svg"
+                href="https://ui-8.net"
+                linkText="https://ui-8.net"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 );
