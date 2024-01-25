@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.name {
+  display: flex;
+  width: 264px;
+  padding-right: 88px;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--topcoderfullstack-com-martinique, #2e2e48);
+  font-family: Outfit;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 125% */
+  letter-spacing: -0.64px;
+  max-width: 280px;
+}
+
+.role {
+  display: flex;
+  padding-right: 66px;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+
+  background: var(
+    --topcoderfullstack-com-linear-medium-purple-cornflower-blue,
+    linear-gradient(180deg, #a478e8 0%, #516cf7 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
