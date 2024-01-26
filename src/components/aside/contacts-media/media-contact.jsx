@@ -1,5 +1,5 @@
-import "./media.css";
-const Media = (props) => {
+import "./media-contact.css";
+const MediaContact = (props) => {
   return (
     <div className="media">
       <div className="featured-icon">
@@ -13,4 +13,4 @@ const Media = (props) => {
   );
 };
 
-export default Media;
+export default MediaContact;

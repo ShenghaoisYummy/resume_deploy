@@ -1,14 +1,14 @@
-.divider-column {
+.divider-column-small {
   display: flex;
   flex: 1;
   flex-direction: column;
-  width: 0.1rem;
+  width: 0.25rem;
   flex-grow: 1;
   border-color: rgba(226, 230, 238, 1);
   position: relative;
   border: 0.125rem solid;
 }
-.divider-wrap {
+.divider-wrap-small-on {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
@@ -17,17 +17,21 @@
   flex: 0 0 auto;
 }
 
-.divider-icon {
+.divider-icon-small {
   display: flex;
   position: relative;
   align-items: center;
   justify-content: center;
 
-  width: 2rem;
-  height: 2rem;
+  width: 1rem;
+  height: 1rem;
   background-color: white;
   border-radius: 12.5rem;
   overflow: hidden;
   box-shadow: 0rem 0.6rem 2.4rem 0rem rgba(0, 0, 0, 0.04),
     0rem 0.1rem 0.4rem 0rem rgba(0, 0, 0, 0.05);
+}
+
+.divider-wrap-small-off {
+  color: white;
 }
