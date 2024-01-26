@@ -1,30 +1,13 @@
 import Lang from "./languages";
+import languageData from "../../../data/languageData";
 
 const LangGroup = () => {
   return (
     <div className="media-wrap">
       <div className="media-title">Languages</div>
-
-      <Lang
-        src="/src/assets/images/languages/italian.svg"
-        title="Italian"
-        subtitle="Native"
-      />
-      <Lang
-        src="/src/assets/images/languages/greek.svg"
-        title="Greek"
-        subtitle="Native"
-      />
-      <Lang
-        src="/src/assets/images/languages/england.svg"
-        title="English"
-        subtitle="Professional working"
-      />
-      <Lang
-        src="/src/assets/images/languages/Spanish.svg"
-        title="spanish"
-        subtitle="Elementary"
-      />
+      {languageData.map((language, index) => (
+        <Lang key={index} {...language} />
+      ))}
     </div>
   );
 };

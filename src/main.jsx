@@ -8,7 +8,6 @@ import ContactGroup from "./components/aside/contacts-media/contact-group";
 import LangGroup from "./components/aside/languages/language-group";
 
 import Projects from "./components/rcontent/project/projects";
-import DividerColoumn from "./components/rcontent/divider-column/divider-column";
 import ExpGroup from "./components/rcontent/experience/experience-group";
 
 import "./main.css";
