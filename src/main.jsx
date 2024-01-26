@@ -7,8 +7,9 @@ import MediaGroup from "./components/aside/contacts-media/media-group";
 import ContactGroup from "./components/aside/contacts-media/contact-group";
 import LangGroup from "./components/aside/languages/language-group";
 
-import Projects from "./components/rcontent/project/projects";
+import Projects from "./components/rcontent/project/project-group";
 import ExpGroup from "./components/rcontent/experience/experience-group";
+import EducationGroup from "./components/rcontent/education/education-group";
 
 import "./main.css";
 import "./assets/css/resetYui.css";
@@ -36,6 +37,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <div className="block">
           <Projects />
           <ExpGroup />
+          <EducationGroup />
         </div>
       </div>
     </div>

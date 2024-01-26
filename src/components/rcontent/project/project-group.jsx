@@ -1,5 +1,5 @@
 import Project from "./project";
-import "./projects.css";
+import "./project-group.css";
 import DividerColumn from "../divider-column/divider-column";
 import projectData from "../../../data/projectData";
 

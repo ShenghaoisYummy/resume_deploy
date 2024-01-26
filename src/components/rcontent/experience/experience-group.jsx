@@ -12,12 +12,12 @@ const ExpGroup = () => {
           {experiences.map((experience, index) => (
             <Exp
               key={index}
+              {...experience}
               className={
                 index === experiences.length - 1
                   ? "divider-wrap-small-off"
                   : "divider-wrap-small-on"
               }
-              {...experience}
             />
           ))}
         </div>
