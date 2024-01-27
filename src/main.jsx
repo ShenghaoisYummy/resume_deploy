@@ -11,6 +11,7 @@ import Projects from "./components/rcontent/project/project-group";
 import ExpGroup from "./components/rcontent/experience/experience-group";
 import EducationGroup from "./components/rcontent/education/education-group";
 import SkillGroup from "./components/rcontent/skills/skill-group";
+import ToolGroup from "./components/rcontent/tools/tool-group";
 
 import "./main.css";
 import "./assets/css/resetYui.css";
@@ -40,6 +41,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           <ExpGroup />
           <EducationGroup />
           <SkillGroup />
+          <ToolGroup />
         </div>
       </div>
     </div>

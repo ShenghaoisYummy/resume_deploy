@@ -9,6 +9,7 @@ const skillDataInfo = [
     text5: "Design System",
     className1: "skill-wrapper",
     className2: "skill-content-wrapper",
+    className3: "skill-icon-purple",
   },
   {
     src: "/src/assets/images/skill/dev.svg",
@@ -20,6 +21,7 @@ const skillDataInfo = [
     text5: "Design System",
     className1: "skill-wrapper-blue",
     className2: "skill-content-wrapper-reverse",
+    className3: "skill-icon-blue",
   },
 ];
 

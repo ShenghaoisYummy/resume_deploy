@@ -5,7 +5,7 @@ import skillDataInfo from "../../../data/skillData";
 const SkillGroup = () => {
   return (
     <div className="r-content-wrap">
-      <DividerColoumn />
+      <DividerColoumn className="divider-wrap" />
       <div className="projects-wrap">
         <div className="project-title">Skills</div>
         <div className="skill-content">

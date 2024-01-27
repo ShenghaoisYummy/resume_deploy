@@ -31,3 +31,7 @@
   box-shadow: 0rem 0.6rem 2.4rem 0rem rgba(0, 0, 0, 0.04),
     0rem 0.1rem 0.4rem 0rem rgba(0, 0, 0, 0.05);
 }
+
+.divider-wrap-off {
+  color: white;
+}

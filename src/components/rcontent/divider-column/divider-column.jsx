@@ -1,8 +1,8 @@
 import "./divider-column.css";
 
-const DividerColoumn = () => {
+const DividerColoumn = (props) => {
   return (
-    <div className="divider-wrap">
+    <div className={props.className}>
       <div className="divider-icon">
         <img src="../../../../src/assets/images/divider/misc-dot-big.svg" />
       </div>

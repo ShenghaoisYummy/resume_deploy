@@ -5,7 +5,7 @@ import experiences from "../../../data/experienceData";
 const ExpGroup = () => {
   return (
     <div className="r-content-wrap">
-      <DividerColumn />
+      <DividerColumn className="divider-wrap" />
       <div className="projects-wrap">
         <div className="project-title">Experience</div>
         <div className="experience-wrap">

@@ -6,7 +6,7 @@ import projectData from "../../../data/projectData";
 const Projects = () => {
   return (
     <div className="r-content-wrap">
-      <DividerColumn />
+      <DividerColumn className="divider-wrap" />
       <div className="projects-wrap">
         <div className="project-title">Latest projects</div>
         <div className="projects">

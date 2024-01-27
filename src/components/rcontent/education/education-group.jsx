@@ -5,7 +5,7 @@ import educationData from "../../../data/educationData";
 const EducationGroup = () => {
   return (
     <div className="r-content-wrap">
-      <DividerColumn />
+      <DividerColumn className="divider-wrap" />
       <div className="projects-wrap">
         <div className="project-title">Education</div>
         <div className="projects">

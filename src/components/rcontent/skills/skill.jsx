@@ -4,7 +4,7 @@ const Skill = (props) => {
   return (
     <div className={props.className1}>
       <div className="skill-icon-wrapper">
-        <img className="skill-icon" src={props.src} />
+        <img className={props.className3} src={props.src} />
         <div className="skill-icon-name">{props.iconName}</div>
       </div>
       <div className={props.className2}>

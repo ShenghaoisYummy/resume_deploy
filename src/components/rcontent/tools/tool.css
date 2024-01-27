@@ -1,0 +1,97 @@
+/* Define styles for the tool-wrap class */
+.tool-wrap-small {
+  display: flex;
+  height: 112px;
+  padding: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex: 1 0 0;
+  border-radius: 8px 0px 0px 0px;
+  background: #f7f9fc;
+}
+.tool-wrap-big {
+  display: flex;
+  height: 128px;
+  padding: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex: 1 0 0;
+  border-radius: 8px 0px 0px 0px;
+  background: #f7f9fc;
+}
+
+/* Define styles for the img tag within tool-wrap */
+.tool-img {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.tool-img-big {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+}
+
+/* Define styles for the tool-text-wrap class */
+.tool-text-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1px;
+}
+
+/* Define styles for the tool-title class */
+.tool-title {
+  display: flex;
+  height: 16px;
+  justify-content: flex-end;
+  align-items: center;
+
+  color: #2e2e48;
+  font-family: "DM Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 128.571% */
+}
+
+/* Define styles for the tool-subtitle class */
+.tool-subtitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #79819a;
+  /* topcoderfullstack.com/DM Sans/Regular 10 */
+  font-family: "DM Sans";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.1px;
+}
+
+.tool-row {
+  gap: 8px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.tool-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}

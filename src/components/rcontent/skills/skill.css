@@ -2,7 +2,7 @@
 .skill-wrapper {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 0.5rem;
   position: relative;
   flex: 1;
   align-self: stretch;
@@ -12,7 +12,7 @@
 .skill-wrapper-blue {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 0.5rem;
   position: relative;
   flex: 1;
   align-self: stretch;
@@ -23,24 +23,33 @@
 /* Define styles for the skill-icon-wrapper class */
 .skill-icon-wrapper {
   display: flex;
-  width: 112px;
-  padding: 16px 67px 16px 0px;
+  width: 7rem;
+  padding: 1rem 4.1875rem 1rem 0rem;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 8px;
+  gap: 0.5rem;
 }
-.skill-icon {
+.skill-icon-purple {
   display: flex;
-  width: 24px;
-  height: 24px;
-  padding: 4px;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.25rem;
   justify-content: center;
   align-items: center;
-  border-radius: 200px;
+  border-radius: 12.5rem;
   background: #efe2f9;
 }
-
+.skill-icon-blue {
+  display: flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.25rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12.5rem;
+  background: #e1e7fe;
+}
 /* Define styles for the skill-icon-name class */
 .skill-icon-name {
   display: flex;
@@ -48,14 +57,14 @@
   align-items: flex-start;
   color: #2e2e48;
   font-family: "DM Sans";
-  font-size: 14px;
+  font-size: 0.875rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 18px; /* 128.571% */
+  line-height: 1.125rem; /* 128.571% */
 }
 .skill-content {
   flex-direction: column;
-  gap: 16px;
+  gap: 1rem;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
@@ -66,38 +75,38 @@
 /* Define styles for the skill-content-wrapper class */
 .skill-content-wrapper {
   display: flex;
-  height: 82px;
+  height: 5.125rem;
   align-items: center;
-  gap: 8px;
+  gap: 0.5rem;
   flex: 1 0 0;
 }
 .skill-content-wrapper-reverse {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  gap: 8px;
+  gap: 0.5rem;
   flex: 1 0 0;
 }
 
 /* Define styles for the skill-card-1 class */
 .skill-card-1 {
   display: inline-flex;
-  height: 82px;
+  height: 5.125rem;
 
-  padding: 16px 15.99px 16px 16px;
+  padding: 1rem 0.9994rem 1rem 1rem;
   justify-content: center;
   align-items: center;
-  gap: 8px;
+  gap: 0.5rem;
   flex: 1 0 0;
-  border-radius: 8px 0px 0px 8px;
+  border-radius: 0.5rem 0rem 0rem 0.5rem;
   background: #f7f9fc;
 }
 
 /* Define styles for the skill-divider class */
 .skill-divider {
-  width: 4px;
-  height: 50px;
-  border: 2px solid #000;
+  width: 0.25rem;
+  height: 3.125rem;
+  border: 0.125rem solid #000;
 }
 
 /* Define styles for the skill-text-1 class */
@@ -107,13 +116,13 @@
 
   align-items: center;
   flex: 1 0 0;
-  padding: 16px 15.99px 16px 16px;
+  padding: 1rem 0.9994rem 1rem 1rem;
   text-align: center;
   font-family: "DM Sans";
-  font-size: 14px;
+  font-size: 0.875rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 18px; /* 128.571% */
+  line-height: 1.125rem; /* 128.571% */
 }
 
 /* Define styles for the skill-card-2 class */
@@ -132,10 +141,10 @@
   align-items: flex-start;
   background: #f7f9fc;
   font-family: "DM Sans";
-  font-size: 14px;
+  font-size: 0.875rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 18px; /* 128.571% */
+  line-height: 1.125rem; /* 128.571% */
 }
 
 /* Define styles for the skill-card-3 class */
@@ -149,11 +158,11 @@
   flex: 0 0 auto;
   justify-content: center;
   position: relative;
-  border-radius: 0px 8px 8px 0px;
+  border-radius: 0rem 0.5rem 0.5rem 0rem;
   background: #f7f9fc;
   font-family: "DM Sans";
-  font-size: 14px;
+  font-size: 0.875rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 18px; /* 128.571% */
+  line-height: 1.125rem; /* 128.571% */
 }
