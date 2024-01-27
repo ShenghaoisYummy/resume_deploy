@@ -1,59 +1,59 @@
 export const toolGroupInfo = [
-    {
-      src: "/src/assets/images/social-media/basic-mail.svg",
-      title: "Email",
-      subtitle: "hsupisces@hotmail.com",
-      size:"big"
-    },
-    {
-      src: "/src/assets/images/social-media/basic-link.svg",
-      title: "Website",
-      subtitle: "https://aldesign.it",
-      size:"big"
-    },
-    {
-      src: "/src/assets/images/social-media/basic-phone.svg",
-      title: "Phone",
-      subtitle: "0491648468",
-      size:"big"
-    },
-    {
-      src: "/src/assets/images/social-media/basic-location.svg",
-      title: "Address",
-      subtitle: "Homebush, Sydney",
-      size:"big"
-    },
-  ];
-  
-  export const toolGroupInfo2 = [
-    {
-      src: "/src/assets/images/social-media/basic-mail.svg",
-      title: "Email",
-      subtitle: "hsupisces@hotmail.com",
-      size:"small"
-    },
-    {
-      src: "/src/assets/images/social-media/basic-link.svg",
-      title: "Website",
-      subtitle: "https://aldesign.it",
-      size:"small"
-    },
-    {
-      src: "/src/assets/images/social-media/basic-phone.svg",
-      title: "Phone",
-      subtitle: "0491648468",
-      size:"small"
-    },
-    {
-      src: "/src/assets/images/social-media/basic-location.svg",
-      title: "Address",
-      subtitle: "Homebush, Sydney",
-      size:"small"
-    },
-    {
-        src: "/src/assets/images/social-media/basic-location.svg",
-        title: "Address",
-        subtitle: "Homebush, Sydney",
-        size:"small"
-      },
-  ];
+  {
+    src: "/src/assets/images/tools/figma.png",
+    title: "Figma",
+    subtitle: "UI Design, prototyping",
+    size: "big",
+  },
+  {
+    src: "/src/assets/images/tools/maze.png",
+    title: "Maze",
+    subtitle: "Product research",
+    size: "big",
+  },
+  {
+    src: "/src/assets/images/tools/spline.png",
+    title: "Spline",
+    subtitle: "3D design",
+    size: "big",
+  },
+  {
+    src: "/src/assets/images/tools/zeplin.png",
+    title: "Zeplin",
+    subtitle: "Design workspace",
+    size: "big",
+  },
+];
+
+export const toolGroupInfo2 = [
+  {
+    src: "/src/assets/images/tools/vector.png",
+    title: "Vectornator",
+    subtitle: "Graphic Design",
+    size: "small",
+  },
+  {
+    src: "/src/assets/images/tools/rotato.png",
+    title: "Rotato",
+    subtitle: "Mockups",
+    size: "small",
+  },
+  {
+    src: "/src/assets/images/tools/vscode.png",
+    title: "VS Code",
+    subtitle: "Code editor",
+    size: "small",
+  },
+  {
+    src: "/src/assets/images/tools/xcode.png",
+    title: "Xcode",
+    subtitle: "ios development",
+    size: "small",
+  },
+  {
+    src: "/src/assets/images/tools/notion.png",
+    title: "Notion",
+    subtitle: "Project managment",
+    size: "small",
+  },
+];

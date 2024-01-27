@@ -83,10 +83,12 @@
   align-self: stretch;
 }
 .content {
-  display: flex;
   flex-direction: column;
+  flex: 1;
+  flex-grow: 1;
+  display: flex;
   align-items: flex-start;
-  flex: 1 0 0;
+  position: relative;
 }
 
 .r-content-wrap {
@@ -98,4 +100,5 @@
   display: flex;
   align-items: flex-start;
   position: relative;
+  margin-bottom: -5px;
 }
