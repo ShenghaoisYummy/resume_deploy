@@ -52,7 +52,7 @@ The web page is divided into several key sections, each representing a different
    git clone https://github.com/your-username/your-resume-project.git
    ```
 
-   cd your-resume-project
+2. Cd to your-resume-project
 
    ```bash
 
