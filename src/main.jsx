@@ -10,6 +10,7 @@ import LangGroup from "./components/aside/languages/language-group";
 import Projects from "./components/rcontent/project/project-group";
 import ExpGroup from "./components/rcontent/experience/experience-group";
 import EducationGroup from "./components/rcontent/education/education-group";
+import SkillGroup from "./components/rcontent/skills/skill-group";
 
 import "./main.css";
 import "./assets/css/resetYui.css";
@@ -38,6 +39,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           <Projects />
           <ExpGroup />
           <EducationGroup />
+          <SkillGroup />
         </div>
       </div>
     </div>

@@ -1,0 +1,159 @@
+/* Define styles for the skill-wrapper class */
+.skill-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+  color: #9251f7;
+}
+.skill-wrapper-blue {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+  color: #516cf7;
+}
+
+/* Define styles for the skill-icon-wrapper class */
+.skill-icon-wrapper {
+  display: flex;
+  width: 112px;
+  padding: 16px 67px 16px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+}
+.skill-icon {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 200px;
+  background: #efe2f9;
+}
+
+/* Define styles for the skill-icon-name class */
+.skill-icon-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #2e2e48;
+  font-family: "DM Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 128.571% */
+}
+.skill-content {
+  flex-direction: column;
+  gap: 16px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+/* Define styles for the skill-content-wrapper class */
+.skill-content-wrapper {
+  display: flex;
+  height: 82px;
+  align-items: center;
+  gap: 8px;
+  flex: 1 0 0;
+}
+.skill-content-wrapper-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 8px;
+  flex: 1 0 0;
+}
+
+/* Define styles for the skill-card-1 class */
+.skill-card-1 {
+  display: inline-flex;
+  height: 82px;
+
+  padding: 16px 15.99px 16px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex: 1 0 0;
+  border-radius: 8px 0px 0px 8px;
+  background: #f7f9fc;
+}
+
+/* Define styles for the skill-divider class */
+.skill-divider {
+  width: 4px;
+  height: 50px;
+  border: 2px solid #000;
+}
+
+/* Define styles for the skill-text-1 class */
+.skill-text-1 {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  flex: 1 0 0;
+  padding: 16px 15.99px 16px 16px;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 128.571% */
+}
+
+/* Define styles for the skill-card-2 class */
+.skill-card-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.2rem;
+  padding: 0.8rem;
+  align-self: stretch;
+  flex: 0 0 auto;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background: #f7f9fc;
+  font-family: "DM Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 128.571% */
+}
+
+/* Define styles for the skill-card-3 class */
+.skill-card-3 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.2rem;
+  padding: 0.8rem;
+  align-self: stretch;
+  flex: 0 0 auto;
+  justify-content: center;
+  position: relative;
+  border-radius: 0px 8px 8px 0px;
+  background: #f7f9fc;
+  font-family: "DM Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 128.571% */
+}
