@@ -1,21 +1,21 @@
 const socialMediaInfo = [
   {
-    src: "/src/assets/images/social-media/ins.svg",
+    src: "/social-media/ins.svg",
     title: "Instagram",
     subtitle: "@shenghaoisyummy",
   },
   {
-    src: "/src/assets/images/social-media/basket.svg",
+    src: "/social-media/basket.svg",
     title: "Dribble",
     subtitle: "@shenghaoisyummy",
   },
   {
-    src: "/src/assets/images/social-media/twitter.svg",
+    src: "/social-media/twitter.svg",
     title: "Twitter",
     subtitle: "@shenghaoisyummy",
   },
   {
-    src: "/src/assets/images/social-media/linkedin.svg",
+    src: "/social-media/linkedin.svg",
     title: "LinkedIn",
     subtitle: "@shenghaoisyummy",
   },

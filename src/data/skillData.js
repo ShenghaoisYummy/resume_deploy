@@ -1,6 +1,6 @@
 const skillDataInfo = [
   {
-    src: "/src/assets/images/skill/design.svg",
+    src: "skill/design.svg",
     iconName: "Design",
     text1: "Web Design",
     text2: "Mobile Design",
@@ -12,7 +12,7 @@ const skillDataInfo = [
     className3: "skill-icon-purple",
   },
   {
-    src: "/src/assets/images/skill/dev.svg",
+    src: "skill/dev.svg",
     iconName: "Development",
     text1: "Web Design",
     text2: "Mobile Design",

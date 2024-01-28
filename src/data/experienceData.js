@@ -1,7 +1,7 @@
 const experiences = [
   {
     date: "Jul 20 - Jan 2022",
-    compSrc: "/src/assets/images/experience/apple.svg",
+    compSrc: "/experience/apple.svg",
     loc: "Cupertino",
     jobTitle: "Product Designer",
     company: "Apple",
@@ -10,7 +10,7 @@ const experiences = [
   },
   {
     date: "Oct 2015 - Mar 2020",
-    compSrc: "/src/assets/images/experience/tesla.svg",
+    compSrc: "/experience/tesla.svg",
     loc: "Austin",
     jobTitle: "UX Designer",
     company: "Tesla",
@@ -19,7 +19,7 @@ const experiences = [
   },
   {
     date: "Sep 2014 - Aug 2015",
-    compSrc: "/src/assets/images/experience/google.svg",
+    compSrc: "/experience/google.svg",
     loc: "Mountain View",
     jobTitle: "Design system architect",
     company: "Google",
@@ -28,7 +28,7 @@ const experiences = [
   },
   {
     date: "Sep 2010 - Jul 2013",
-    compSrc: "/src/assets/images/experience/vector.svg",
+    compSrc: "/experience/vector.svg",
     loc: "Berlin",
     jobTitle: "Design system architect",
     company: "Vectornator",
