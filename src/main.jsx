@@ -21,7 +21,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <div className="aside">
       <div className="container">
         <Header
-          src="/src/assets/images/header/head.png"
+          src="images/header/head.png"
           name="Austin"
           role="Full-Stack Developer"
         />
