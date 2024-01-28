@@ -11,7 +11,7 @@ const Exp = (props) => {
             <p className="experience-date">{props.date}</p>
             <div className="experience-loc">
               <div className="loc">
-                <img src="/src/assets/images/experience/basic-location.svg" />
+                <img src="experience/basic-location.svg" />
               </div>
               <div className="loc-text">{props.loc}</div>
             </div>
